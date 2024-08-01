@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.21)
+project(cprepo)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(cprepo helloWorld.cpp)
+add_executable(weirdAlgorithm weirdAlgorithm.cpp)
+add_executable(missingNumber missingNumber.cpp)
+add_executable(coci12c3p4 coci12c3p4.cpp)
+add_executable(ccc12j1 ccc12j1.cpp)
+add_executable(dmopc20c4p1 dmopc20c4p1.cpp)
+add_executable(ccc21s1 ccc21s1.cpp)
+add_executable(sort1 sort1.cpp)
+add_executable(ccc21s2 ccc21s2.cpp)
+add_executable(ccc21s3 ccc21s3.cpp)
