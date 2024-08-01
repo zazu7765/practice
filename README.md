@@ -1,2 +1,4 @@
-# zig-asm
+# practice  
+
+- programming in different languages practice
 
