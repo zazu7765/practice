@@ -5,7 +5,15 @@ fn fib(n: u16) u16 {
     return fib(n - 1) + fib(n - 2);
 }
 
+fn plusFive(x: u32) u32 {
+    return x + 5;
+}
+
 test "fibonacci recursion" {
     const x = fib(10);
     try expect(x == 55);
+}
+test "plusFive func" {
+    const x = plusFive(5);
+    try expect(x == 10);
 }
